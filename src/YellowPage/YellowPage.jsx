@@ -8,9 +8,9 @@ export const YellowPage = () => {
       <div className="blog-card">
         <img alt="" className="blog-card-image" src={blogCardImage} />
         <div className="blog-card-category-label">Learning</div>
-        <p>Published 21 Dec 2023</p>
-        <h2>HTML & CSS foundations</h2>
-        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <p className="blog-card-publish-date">Published 21 Dec 2023</p>
+        <h2 className="blog-card-title">HTML & CSS foundations</h2>
+        <p className="blog-card-description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
         <div className="blog-card-avatar-flex">
           <img alt="" src={avatarImage} />
           <p>Greg Hooper</p>

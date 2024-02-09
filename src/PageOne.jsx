@@ -1,9 +1,11 @@
+import { YellowPage } from './YellowPage/YellowPage'
+
 export default function PageOne() {
 
 
   return (
     <>
-    Page One
+      <YellowPage />
     </>
   );
 }

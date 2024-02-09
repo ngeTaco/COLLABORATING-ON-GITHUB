@@ -1,0 +1,80 @@
+@font-face {
+  font-family: figtree;
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf')
+}
+
+main {
+  background-color: #f5d04e;
+  box-sizing: border-box;
+  font-family: figtree, Arial, Helvetica, sans-serif;
+  height: calc(100vh - 2.6rem);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-card {
+  background-color: white;
+  box-shadow: 4px 4px 0px 0px black;
+  height: 360px;
+  width: 260px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+}
+
+.blog-card-image {
+  background-color: black;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.blog-card-category-label {
+  background-color: #f5d04e;
+  border-radius: 4px;
+  height: 12px;
+  line-height: 12px;
+  width: fit-content;
+  padding: 4px 12px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.blog-card-publish-date {
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.blog-card-title {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.blog-card-description {
+  font-size: 12px;
+  line-height: 16px;
+  color: #9e9e9e;
+}
+
+.blog-card-avatar-flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.blog-card-avatar-flex img {
+  height: 32px;
+}
+
+.blog-card-avatar-flex p {
+  font-size: 12px;
+  font-weight: bold;
+}

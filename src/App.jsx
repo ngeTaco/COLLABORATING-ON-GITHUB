@@ -15,7 +15,6 @@ export default function App() {
         </div>
       </nav>
 
-
       <main>
         <Outlet />
       </main>

@@ -15,16 +15,10 @@ import PageThree from './PageThree.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} >
-      {/* Homepage */}
       <Route index element={<PageOne />} />
-
-
-    
       <Route path="page-02" element={<PageTwo />} />
       <Route path="page-03" element={<PageThree />} />
-
-
-    </Route>,
+    </Route>
   ),
 );
 

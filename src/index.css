@@ -12,6 +12,6 @@
   }
 
   a.active {
-    @apply font-bold;
+    @apply font-extrabold;
   }
 }

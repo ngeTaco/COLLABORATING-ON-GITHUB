@@ -9,6 +9,7 @@ ViteExpress.config({ printViteDevServerHost: true });
 
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: false }));
+app.use(express.static('public'))
 
 app.use(express.json());
 

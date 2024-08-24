@@ -15,3 +15,10 @@
     @apply font-extrabold;
   }
 }
+
+.fieldDesign {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  width: 300px;
+  height: 40px;
+}
